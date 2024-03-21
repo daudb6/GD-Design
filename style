@@ -1,0 +1,609 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  position: fixed;
+  width: 100%;
+  z-index: 100;
+}
+
+nav {
+  padding: 1rem 6rem;
+  max-width: 1470px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-title h1 {
+  font-size: 2rem;
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.nav-links a {
+  text-decoration: none;
+  font-size: 1.2rem;
+  color: #fff;
+}
+
+.nav-links button {
+  padding: 0.6rem 1.6rem;
+  border-radius: 15px;
+  background-color: #023047;
+  border: none;
+  color: #fff;
+}
+
+.nav-links .menu {
+  display: none;
+}
+
+/* Start Hero Section */
+
+.hero-section {
+  padding: 6rem 6rem;
+  background: linear-gradient(180deg, #6f7dfb 0%, #26308c 100%);
+}
+
+.hero-details {
+  max-width: 1470px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.hero-data {
+  width: 38%;
+}
+
+.hero-heading h2 {
+  font-size: 2.5rem;
+  color: #fff;
+}
+
+.hero-heading p {
+  font-size: 1.1rem;
+  color: #fff;
+  padding-top: 30px;
+  line-height: 1.7em;
+}
+
+.hero-button {
+  border: 2px solid;
+  width: 100px;
+  padding: 0.5rem 1rem;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  background-color: #da722c;
+  border: none;
+  border-radius: 15px;
+  margin-top: 40px;
+}
+
+.hero-button button {
+  background-color: transparent;
+  border: none;
+  font-size: 13px;
+  color: #fff;
+}
+
+.hero-info {
+  width: 60%;
+  position: relative;
+}
+
+.hero-image img {
+  float: inline-end;
+  width: 70%;
+}
+
+.s-enroll {
+  width: 160px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 5px;
+  background-color: #fff;
+  border-radius: 10px;
+  position: absolute;
+  top: 22%;
+  left: 50px;
+}
+
+.s-enroll p {
+  font-size: 1.3rem;
+}
+
+.s-enroll h3 {
+  font-size: 2.5rem;
+}
+
+.s-rating {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  position: absolute;
+  top: 56%;
+  left: 0;
+}
+.s-rating p {
+  font-size: 1.1rem;
+}
+/* End Hero Section */
+
+/* Start Overview Section */
+
+.overview-section {
+  padding: 4rem 8rem;
+  position: relative;
+  max-width: 1470px;
+  margin: auto;
+}
+
+.overview {
+  display: flex;
+  justify-content: space-between;
+}
+
+.main {
+  width: 20px;
+  height: 450px;
+  background-color: #26308c;
+  border-radius: 20px;
+  margin-left: 30px;
+}
+
+.b-students {
+  position: absolute;
+  top: 90px;
+  left: 130px;
+}
+
+.f-student {
+  width: 300px;
+  height: 180px;
+  border-radius: 24px;
+  background: #fff;
+  box-shadow: 0px 9px 36px 0px rgba(0, 0, 0, 0.2);
+  position: relative;
+}
+
+.f-heading {
+  background-color: #26308c;
+  border-radius: 20px;
+  padding: 10px 30px;
+}
+
+.heading {
+  background-color: #da722c;
+}
+
+.f-heading p {
+  line-height: 23px;
+  color: #fff;
+  font-size: 14px;
+}
+
+.f-data {
+  display: flex;
+  align-items: center;
+  padding: 0rem 2rem;
+}
+
+.f-description {
+  padding-top: 26px;
+}
+.f-description h3 {
+  color: #023047;
+}
+
+.f-data img {
+  position: absolute;
+  top: 60px;
+  right: 20px;
+}
+
+.datas img {
+  position: absolute;
+  top: 35px;
+  right: 20px;
+}
+
+.student {
+  margin-top: 30px;
+}
+
+.overview-info {
+  width: 50%;
+}
+
+.info-heading h2 {
+  font-size: 2.8rem;
+  color: #023047;
+  line-height: 38px;
+  padding-top: 4rem;
+}
+
+.info-heading p {
+  padding-top: 30px;
+  text-align: justify;
+  width: 90%;
+  line-height: 23px;
+  color: #023047;
+}
+
+.info-heading button {
+  padding: 0.7rem 1.7rem;
+  background-color: #da722c;
+  border-radius: 15px;
+  margin-top: 30px;
+  color: #fff;
+  border: none;
+  font-size: 1rem;
+}
+/* End Overview Section */
+
+/* Start Course Section */
+
+.courses-section {
+  padding: 3rem 8rem;
+  background: linear-gradient(180deg, #6f7dfb 0%, #26308c 100%);
+}
+
+.courses {
+  max-width: 1270px;
+  margin: auto;
+}
+
+.courses-title h2 {
+  text-align: center;
+  font-size: 2.5rem;
+  color: #fff;
+}
+
+.courses-info {
+  width: 510px;
+  height: 360px;
+  background-color: #fff;
+  border-radius: 24px;
+  position: relative;
+}
+
+.course-img {
+  text-align: center;
+  position: absolute;
+  bottom: 85px;
+  left: 13px;
+}
+
+.course-description {
+  padding: 1rem 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.course-description p {
+  font-size: 1.5rem;
+  font-weight: 900;
+  color: #023047;
+  position: absolute;
+  bottom: 40px;
+}
+
+.course-description .para {
+  position: absolute;
+  bottom: 10px;
+  font-size: 1.7rem;
+}
+
+.time {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+}
+
+.courses-details {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 2rem;
+  padding-bottom: 3rem;
+}
+
+.c-btn {
+  padding: 0.7rem 1.7rem;
+  background-color: #da722c;
+  color: #fff;
+  font-size: 1.1rem;
+  border-radius: 10px;
+  border: none;
+  float: inline-end;
+  cursor: pointer;
+}
+/* End Course Section */
+
+/* Start App Section */
+
+.app-section {
+  padding: 2rem 8rem;
+}
+
+.app-heading {
+  text-align: center;
+}
+
+.app-heading h1 {
+  color: #023047;
+  font-size: 2.3rem;
+}
+
+.app-heading p {
+  color: #023047;
+  font-size: 1.1rem;
+  padding-top: 10px;
+}
+
+.app-logo {
+  width: 250px;
+  border: 2px solid;
+  background-color: #000;
+}
+
+.app-img {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 7px 20px;
+}
+
+.app-logo span {
+  color: #fff;
+  font-size: 1.3rem;
+}
+
+.logos {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  padding-top: 40px;
+}
+/* End App Section */
+
+/* Start Footer Section */
+
+.footer-section {
+  padding: 3rem 8rem;
+  background-color: #000;
+}
+
+.footer {
+  max-width: 1470px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.links {
+  color: #fff;
+}
+
+.links ul {
+  display: flex;
+  flex-direction: column;
+  padding-left: 20px;
+  gap: 10px;
+}
+
+.links ul li {
+  list-style: none;
+}
+
+.links h4 {
+  padding-bottom: 1.3rem;
+  color: #da722c;
+  font-size: 1.4rem;
+}
+
+.mail {
+  font-size: 1.2rem;
+}
+
+.s-icons {
+  display: flex;
+  gap: 22px;
+}
+
+.input {
+  position: relative;
+}
+
+.input input {
+  width: 250px;
+  padding: 8px 20px;
+  margin-top: 1rem;
+  border-radius: 5px;
+  border: none;
+}
+
+.input button {
+  position: absolute;
+  right: 5px;
+  top: 19.5px;
+  padding: 0.2rem 1rem;
+  background-color: #023047;
+  color: #fff;
+  border-radius: 10px;
+}
+
+/* End Footer Section */
+
+@media (max-width: 1100px) {
+ 
+  .s-enroll {
+    width: 140px;
+  }
+  .s-enroll h3 {
+    font-size: 2rem;
+  }
+
+  .s-enroll p {
+    font-size: 1.1rem;
+  }
+  .s-rating {
+    width: 140px;
+  }
+  .s-rating p {
+    font-size: 1rem;
+  }
+}
+@media (max-width: 992px) {
+  .nav-links {
+    gap: 1.3rem;
+  }
+  .nav-links a {
+    font-size: 1rem;
+  }
+
+  .nav-links button {
+    padding: 0.5rem 1.3rem;
+  }
+
+  .s-enroll {
+    width: 110px;
+  }
+  .s-enroll h3 {
+    font-size: 1.3rem;
+  }
+
+  .s-enroll p {
+    font-size: 1rem;
+  }
+  .s-rating {
+    width: 110px;
+  }
+  .s-rating p {
+    font-size: 0.7rem;
+  }
+
+  .hero-heading h2 {
+    font-size: 2rem;
+  }
+  .hero-heading p {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 834px) {
+  .hero-section {
+    padding: 12rem 4rem 0 4rem;
+  }
+  .hero-details {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .hero-data {
+    width: 90%;
+  }
+  .hero-info {
+    width: 100%;
+  }
+
+  .hero-heading h2 {
+    font-size: 2.6rem;
+  }
+
+  .hero-heading p {
+    font-size: 1.2rem;
+  }
+
+  /* .hero-image img {
+    width: 100%;
+  } */
+}
+
+@media (max-width: 767px) {
+  .nav-links .menu {
+    display: block;
+  }
+
+  .nav-links a {
+    display: none;
+  }
+  .nav-links button {
+    display: none;
+  }
+
+  .s-enroll{
+    width: 206px;
+    height: 50px;
+  }
+}
+
+/* @media (max-width: 750px) {
+  .hero-image img {
+    height: 300px;
+  }
+
+  .s-enroll {
+    width: 80px;
+  }
+  .s-enroll h3 {
+    font-size: 1rem;
+  }
+
+  .s-enroll p {
+    font-size: 0.6rem;
+  }
+  .s-rating {
+    width: 80px;
+  }
+  .s-rating p {
+    font-size: 0.6rem;
+  }
+  .img img {
+    height: 30px;
+  }
+} */
+
+@media (max-width: 660px) {
+  .hero-image img {
+    height: 240px;
+  }
+  .img img {
+    height: 20px;
+  }
+}
+@media (max-width: 605px) {
+  .hero-image img {
+    height: 200px;
+  }
+  .img img {
+    height: 20px;
+  }
+
+  .s-enroll {
+    width: 50px;
+  }
+  .s-enroll h3 {
+    font-size: 0.6rem;
+  }
+
+  .s-enroll p {
+    font-size: 0.5rem;
+  }
+}
